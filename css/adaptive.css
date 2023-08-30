@@ -1,0 +1,257 @@
+@media (max-width: 1449px) {
+  .about__decor {
+    font-size: 5rem;
+    transform: rotate(-90deg) translate(-70%, 110%);
+  }
+}
+
+@media (max-width: 1340px) {
+  .about__decor {
+    display: none;
+  }
+}
+
+@media (max-width: 1219px) {
+
+  /* ============gallery========================= */
+  .gallery__body {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .gallery__content-left {
+    flex: 0 1 100%;
+    text-align: center;
+  }
+
+  .gallery__content-right {
+    flex: 0 1 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .about__content {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  /* ===============advantages========================== */
+  .advantages__body {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .advantages__content {
+    padding: 1.5rem;
+  }
+
+  .advantages__subtitle {
+    transform: translateY(0%);
+  }
+
+  .advantages__text {
+    transform: translateY(0%);
+  }
+
+}
+
+
+@media (max-width: 767px) {
+
+  /* ===============hero========================== */
+
+  .hero__border {
+    border: 1px solid green;
+    padding: 2rem;
+    width: 100%;
+    position: relative;
+    z-index: 33;
+  }
+
+  .hero__offer {
+    font-size: 3rem;
+  }
+
+  .hero__text {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+
+  /* ===============about========================== */
+
+  .about {
+    padding: 50px 0px;
+  }
+
+  /* ===============advantages========================== */
+  .advantages {
+    padding: 50px 0px;
+  }
+
+  .advantages__item {
+    height: 300px;
+  }
+
+  .advantages__body {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  /* ===============callback========================== */
+  .callback {
+    padding: 50px 0px;
+  }
+
+  .callback__form {
+    width: 70%;
+  }
+
+  .callback::before {
+    width: 70%;
+  }
+
+  /* ===============typeOfworks========================== */
+  .typeOfworks {
+    padding: 50px 0px;
+
+  }
+
+  /* ===============gallery========================== */
+
+  .gallery {
+    padding: 50px 0px;
+  }
+}
+
+
+@media (max-width: 479px) {
+  /* ===============hero========================== */
+
+  .hero__border {
+    padding: 1rem;
+  }
+
+  .hero__offer {
+    font-size: 2.5rem;
+  }
+
+  .hero__text {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+
+  /* ===============advantages========================== */
+
+  .advantages__body {
+    margin: 30px -15px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  /* ============typeOfworks========================= */
+
+  .typeOfworks__sub-list {
+    margin-top: 0rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0fr 0fr 0fr 0fr;
+    ;
+    overflow: hidden;
+    transition: all 0.5s ease;
+  }
+
+  ._active .typeOfworks__sub-list {
+    margin-top: 1rem;
+    grid-template-rows: minmax(30px, 1fr);
+  }
+
+  ._active .typeOfworks__sub-list .typeOfworks__sub-item {
+    padding: 5px 0px;
+  }
+
+  /* ============gallery========================= */
+
+  .gallery__content-left {
+    margin-bottom: 15px;
+  }
+
+  .gallery__controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .gallery__button {
+    flex: 0 1 45%;
+    padding: 1rem 0rem;
+    font-size: 0.7rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .pictures {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .pictures__column {
+    flex: 0 1 100%;
+  }
+
+  .right-column__wrapper {
+    flex-wrap: nowrap;
+  }
+
+  .right-column__pictures {
+    margin-top: 5px;
+  }
+
+  .right-column__item:nth-child(1) {
+    margin: 0 0 0px 0px;
+  }
+
+  /* ============footer========================= */
+
+  .footer__contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+  .footer__phone-link,
+  .footer__email-link {
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    border-right: none;
+    transition: all 0.3s ease;
+  }
+}
+
+@media (max-width:350px) {
+  /* ===============callback========================== */
+
+  .callback__form {
+    width: 100%;
+  }
+
+  .callback::before {
+    width: 100%;
+  }
+
+  .typeOfworks__paragraph {
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 20px;
+  }
+
+}
